@@ -1,0 +1,188 @@
+families:
+  # - house: Philipson
+  - parents: ["Peshel Serling", "Ariel Serling"]
+    children: ["Bailey Serling"]
+    families:
+      parents: ["Bailey Serling", "Joseph Golinsky"]
+      children: ["Sylvia Golinsky"]
+      families:
+        parents: ["Sylvia Golinsky", "Louis Philipson"]
+        children: ["Herb Philipson"]
+  - parents: ["Lena", "Barnett Philipson"]
+    children: ["Joseph Philipson"]
+    families:
+      parents: ["Joseph Philipson", "Katie Stabinsky"]
+      children: ["Louis Philipson"]
+  - parents: ["Nachama Schecter", "Meyer Rabinowitz"]
+    children: ["Hadassah Rabinowitz"]
+    families:
+      parents: ["Hadassah Rabinowitz", "Eliyahu Zuta"]
+      children: ["Aviva Zuta"]
+      families:
+        parents: ["Herb Philipson", "Aviva Zuta"]
+        children: ["Gary Philipson"]
+  - parents: ["Aryen Zuta", ""]
+    children: ["Eliyahu Zuta"]
+
+  # - house: Behren
+  - parents: ["Eva Richmond", "Jacob Richmond"]
+    children: ["Rose Richmond"]
+    families:
+      parents: ["Rose Richmond", "Abraham Behren"]
+      children: ["Richard Behren"]
+      families:
+        parents: ["Richard Behren", "Leta Goldstrom"]
+        children: ["Lisa Behren"]
+  - parents: ["Pauline", "Louis Behren"]
+    children: ["Abraham Behren"]
+  - parents: ["Lena Williamson", "Morris Williamson"]
+    children: ["Ruth Williamson"]
+    families:
+      parents: ["Ruth Williamson", "Melvin Goldstrom"]
+      children: ["Leta Goldstrom"]
+  - parents: ["Claire Goldstrom", "Sol Goldstrom"]
+    children: ["Melvin Goldstrom"]
+  - parents: ["Lisa Behren", "Gary Philipson"]
+    children: ["Evan Philipson", "Jeremy Philipson", "Rachel Philipson"]
+
+  # - house: Dursley
+  #   parents: [Vernon, Petunia]
+  #   children: [Dudley]
+  #   children2: [Harry]
+
+  # - house: Weasley
+  #   parents: [Arthur, Molly]
+  #   children: [Ron, Fred, George, Ginny, Bill]
+  #   families:
+  #     - parents: [Ron, Hermione]
+  #       children: [Rose, Hugo]
+  #     - parents: [George, Angelina]
+  #     - parents: [Bill, Fleur]
+  #       children: [Victoire, Dominique, Louis]
+
+  # - house: Granger
+  #   parents: [Mr Granger, Mrs Granger]
+  #   children: [Hermione]
+
+  # - children: [Petunia, Lily]
+
+people:
+  "Peshel Serling":
+    fullname: Peshel Serling
+  "Ariel Serling":
+    fullname: Ariel Serling
+    class: [muggleborn]
+  "Bailey Serling":
+    fullname: Bailey Serling Golinsky
+    birthplace: Bialystok
+  "Joseph Golinsky":
+    fullname: Joseph Golinsky
+    birthplace: Bialystok
+  "Lena":
+    fullname: Lena ????
+  "Barnett Philipson":
+    fullname: Barnett Philipson
+  "Katie Stabinsky":
+    fullname: Katie Stabinsky Philipson
+    birthplace: Lithuania
+  "Joseph Philipson":
+    fullname: Joseph Philipson
+    birthplace: Lithuana
+  "Sylvia Golinsky":
+    fullname: Sylvia Golinsky Philipson
+    birthplace: Russia
+    born: 1901
+  "Louis Philipson":
+    fullname: Louis Philipson
+    birthplace: New York, NY
+    born: 1896
+  "Herb Philipson":
+    fullname: Herb Philipson
+    birthplace: Utica, NY
+    born: 1922
+  "Nachama Schecter":
+    fullname: Nachama Schecter
+    birthplace: Russia
+  "Meyer Rabinowitz":
+    fullname: Meyer Rabinowitz
+    birthplace: Russia
+  "Hadassah Rabinowitz":
+    fullname: Hadassah Rabinowitz
+    birthplace: Rahevet, Israel
+    born: 1900
+  "Aryen Zuta":
+    fullname: Aryen Zuta
+    birthplace: Russia
+  "Eliyahu Zuta":
+    fullname: Eliyahu Zuta
+    birthplace: Odessa, Russia
+  "Aviva Zuta":
+    fullname: Aviva Zuta Philipson
+    birthplace: New York, NY
+    born: 1929
+  "Eva Richmond":
+    fullname: Eva Richmond
+    birthplace: Austria
+  "Jacob Richmond":
+    fullname: Jacob Richmond
+  "Pauline":
+    fullname: Pauline ???
+    birthplace: Russia
+  "Louis Behren":
+    fullname: Louis D. Behren
+    birthplace: Russia
+  "Lena Williamson":
+    fullname: Lena Williamson
+    birthplace: Russia
+  "Morris Williamson":
+    fullname: Morris Williamson
+    birthplace: Russia
+  "Claire Goldstrom":
+    fullname: Claire Goldstrom
+    birthplace: Nebraska
+  "Sol Goldstrom":
+    fullname: Sol Goldstrom
+    birthplace: Germany
+  "Rose Richmond":
+    fullname: Rose Richmond Behren
+    birthplace: Austria
+    born: 1902
+  "Abraham Behren":
+    fullname: Abraham Lester Behren
+    birthplace: New York, NY
+    born: 1901
+  "Ruth Williamson":
+    fullname: Ruth Williamson Goldstrom
+    birthplace: Brooklyn, NY
+    born: 1907
+  "Melvin Goldstrom":
+    fullname: Melvin Goldstrom
+    birthplace: Nebraska
+    born: 1901
+  "Richard Behren":
+    fullname: Richard Behren
+    birthplace: New York, NY
+  "Leta Goldstrom":
+    fullname: Leta Goldstrom Behren
+    birthplace: Miami Beach, FL
+    born: 1936
+  "Lisa Behren":
+    fullname: Lisa Behren Philipson
+    birthplace: Miami, FL
+    born: 1958
+  "Gary Philipson":
+    fullname: Gary Lee Philipson
+    birthplace: Utica, NY
+    born: 1957
+  "Evan Philipson":
+    fullname: Evan Philipson
+    birthplace: Utica, NY
+    born: 1989
+  "Jeremy Philipson":
+    fullname: Jeremy Philipson
+    birthplace: Utica, NY
+    born: 1992
+  "Rachel Philipson":
+    fullname: Rachel Philipson
+    birthplace: Utica, NY
+    born: 1995
